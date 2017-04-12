@@ -1,0 +1,204 @@
+/* CSS Document */
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bodypage {
+    background: #ecf0f1;
+}
+.container {
+    padding: 0px 0px 0px 0px;
+}
+
+#menu ul li:hover {
+    background: #e74c3c;	
+}
+
+.containerHeader{
+	width: 100%;
+}
+
+h2 {
+    font-weight: 700;
+}
+.navbar {
+    /*fixtop menu*/
+    opacity: 0.9;
+    font-weight: 500;
+}
+.navmenu2 {
+    background: #34495e;
+}
+.navbar-menu {
+    background: #e74c3c;	
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #FFF;
+}
+.navbar-brand:hover {
+    color: #FFF;
+    font-weight: bolder;
+    background: #f34764;
+}
+.headerlogo {
+    margin-bottom: 2px;
+}
+
+.search-box{
+	padding-top: 40px;
+	float: right;
+	margin-left: 40px;
+}
+
+.search-form{
+	padding: 0px;
+}
+
+.search-box input[type=text] {
+	width:75%;
+    border: #e74c3c solid 1px;
+    box-shadow: none;
+    display: inline-block;
+    padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+    
+}
+.search-box input[type=text]:hover,
+.search-box input[type=text]:focus,
+.search-box input[type=text]:active {
+    box-shadow: 0px 0px 10px red;
+	border:#F00 solid 1px;
+}
+
+.search-box .btn{
+	float: right;
+}
+
+.search-box .btn:active{
+	font-weight:bolder;
+	border:none;
+}
+
+.font {
+    font-family: "leelawadee UI";
+    font-weight: bold;
+    color: #FFF;
+}
+
+.colorPrime {
+    background: #2980b9;
+}
+
+.boxRight {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #F7F7F7;
+    height: auto;
+}
+
+.boxTitle {
+    padding: 12px;
+    background: #f34764;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+.boxSlide {
+    width: 100%;
+    background: #FFFFFF;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+.boxGeneral {
+    width: 100%;
+    background: #FEFEFE;
+	margin-bottom:20px;
+	box-shadow: 0px 0px 4px red;
+}
+
+.boxContent{
+	padding:10px;
+}
+
+.boxContent ul{
+	padding-left: 0px;
+}
+
+.boxContent ul li{
+	padding: 10px;
+	width: 100%;
+	border-bottom:#bdc3c7 solid 1px;
+	font-weight: bold;
+}
+
+.boxContent ul li:hover{
+	color: #e74c3c;
+}
+
+.boxContent ul li a{
+	color: #2980b9;
+}
+
+.boxContent ul li a:hover{
+	text-decoration: none;
+	color: #e74c3c;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+}
+
+.boxContainerLeft{
+
+}
+
+.boxContainerRight{
+
+}
+
+.boxRule{
+
+}
+
+.boxFooter{
+	background: #2c3e50;
+}
+
+.menuHeader{
+	width: 100%;
+	height: 40px;
+	background: #2980b9;
+}
+
+.menuHeaderRight{
+	margin-top:10px;
+	float: right;
+	height: 40px;
+}
+
+.navbar-form {
+    padding: 10px 15px;
+    margin-top: 8px;
+    margin-right: -15px;
+    margin-bottom: 8px;
+    margin-left: -15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    /* -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1); */
+    /* box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1); */
+}
+
+.colorTextDark{
+	color: #2c3e50;
+}
+
+.backgroundRed{
+	background: #e74c3c;
+}
