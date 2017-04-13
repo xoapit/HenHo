@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Đăng ký</title>	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="ckeditor/ckeditor.js"></script>
+</head>
+
+<body class="bodypage">
+	<div class="menuHeader">
+		<div class="col-md-offset-1 col-md-10">
+			<div class="menuHeaderRight">
+				<a href="" style="color: #fff;">Đăng ký</a>
+				&#160;&#160;&#160;
+				<a href=""  style="color: #fff;">Đăng nhập</a>
+			</div>
+		</div>
+	</div>
+	<div class="containerHeader">
+		<div class="headerlogo" >
+			<div class="containerHeader row">
+				<div class="col-md-offset-1 col-md-7">
+					<h3 class="paddingText font colorTextDark">
+						<img src="image/logo.png" width="10%" height="10%" style="margin-left: 10px;">  BẠN MUỐN HẸN HÒ
+					</h3>
+				</div>
+				<div class="col-md-3 search-box">
+					<form class="search-form navbar-form" action="timkiem.php" method="post">
+						<input class="form-control" type="text" name="timkiem" placeholder="Tìm kiếm tên">
+						<button class="btn btn-danger " name="tim">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container"> 
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.php" style="color:#FFF">
+						<span class="glyphicon glyphicon-home" ></span> Home
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav ">
+						<li>
+							<a href="#" style="color:#FFF">Tìm bạn</a>
+						</li>
+
+						<li>
+							<a href="#NoiQuy" style="color:#FFF">Nội quy</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="boxRule">
+			<div class="boxGeneral" style="border-radius: 5px;">
+				<div class="boxTitle">
+					<span class="glyphicon"></span> Đăng Ký
+				</div>
+				<div class="boxContent">
+					<div class="container" style="height:auto;">
+						<div class="col-md-10 col-md-offset-1">
+							<form role="form" method="post" action="" >
+								<div class="col-md-4 form-group" style="height: auto;padding:30px;">
+									<div class="form-group">
+										<label>Tên tài khoản</label>
+										<div class="form-inline" >
+											<input type="text" class="form-control" style="width: 230px;">
+											<label>*</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>Mật khẩu</label>
+										<div class="form-inline">
+											<input type="password" class="form-control" style="width: 230px;">
+											<label>*</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>Họ tên</label>
+										<div class="form-inline">
+											<input type="text" class="form-control" style="width: 230px;">
+											<label>*</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>Email</label>
+										<div class="form-inline">
+											<input type="email" class="form-control" style="width: 230px;">
+											<label>*</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>Giới tính</label>
+										<select class="form-control" >
+											<option value="male">Nam</option>
+											<option value="female">Nữ</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Hôn nhân</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-md-4 form-group" style="height: auto;padding:30px;">
+									<div class="form-group">
+										<label>Ngày sinh</label>
+										<input type="date" class="form-control">
+									</div>
+									<div class="form-group">
+										<label>Mục tiêu</label>
+										<select class="form-control">
+											<option value="muctieu1">Yêu nhau trọn đời</option>
+											<option value="muctieu2">Yêu nhau 3 nốt nhạc</option>
+											<option value="muctieu2">Kết bạn, làm quen</option>
+											<option value="muctieu2">Yêu thử</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Học vấn</label>
+										<select class="form-control">
+											<option value="hocvan1">Tốt nghiệp cấp 3</option>
+											<option value="hocvan2">Trung cấp</option>
+											<option value="hocvan3">Cao đẳng</option>
+											<option value="hocvan4">Đại học</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Chiều cao</label>
+										<select class="form-control">
+											<option value="chieucao1">Dưới 150cm</option>
+											<option value="chieucao2">150-160cm</option>
+											<option value="chieucao3">160-170cm</option>
+											<option value="chieucao4">Trên 170cm</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Cân nặng</label>
+										<select class="form-control">
+											<option value="cannang1">Dưới 40kg</option>
+											<option value="cannang2">40-50kg</option>
+											<option value="cannang3">50-60kg</option>
+											<option value="cannang4">Trên 60kg</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4 form-group" style="height: auto;padding:30px;">
+									<div class="form-group">
+										<label>Quốc gia</label>
+										<select class="form-control" style="width: 230px;">
+											<option value="quocgia1">Việt Nam</option>
+											<option value="quocgia2">Đại Cồ Việt</option>
+											<option value="quocgia3">Âu Lạc</option>
+											<option value="quocgia4">Văn Lang</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Đến từ</label>
+										<select class="form-control" style="width: 230px;">
+											<option value="tinhthanh1">Hà Nội</option>
+											<option value="tinhthanh2">Hồ Chí Minh</option>
+											<option value="tinhthanh3">Đà Nẵng</option>
+											<option value="tinhthanh4">Hải Phòng</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label>Tôi là</label>
+										<div class="form-inline" >
+											<textarea class="form-control" style="height: 108px;width: 230px;"></textarea>
+											<label>*</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label>Tìm người</label>
+										<input type="text" class="form-control" style="width: 230px;">
+									</div>
+								</div>
+								<button type="submit" class="btn btn-info" style="float: right;margin-right: 50px;">Đăng ký</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="boxFooter">
+		<footer>
+			<div class="container">
+				<div class="col-xs-12 col-md-6 font paddingText" style="border-right:#3498db solid 2px; padding-bottom: 20px; ">
+					<h3 class="colorTextWhite" style="font-weight:600">Bạn muốn hẹn hò</h3>
+					<div class="gachchan"></div>
+					<br/>
+					<p>Website là nơi để các bạn giao lưu, tìm kiếm bạn bè, kết bạn, hẹn hò. </p>
+				</div>
+				<div class="col-xs-12 col-md-6 font paddingText" style="padding-left:5%; padding-bottom: 20px;">
+					<h3 class="colorTextWhite" style="font-weight:600">Liên Hệ</h3>
+					<span class="glyphicon glyphicon-phone"> 016454856456 </span>
+					<span class="glyphicon glyphicon-envelope font" style="margin-left:10px"> dreamteam@gmail.com</span>
+					<span class="glyphicon glyphicon-copyright-mark"> 2017 BMHH. Team 13T1 BKĐN. All right reserved
+					</span>
+					<span class="glyphicon glyphicon-copyright-mark">
+						Thành Viên: Quý Quân Phong Nghi Phước
+					</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

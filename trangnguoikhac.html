@@ -29,7 +29,7 @@
         <div class="col-md-offset-1 col-md-10">
             <div class="menuHeaderRight">
                 <a href="" style="color: #fff;">Đăng ký</a>
-                &#160;&#160;&#160;&#160;
+                &#160;&#160;&#160;
                 <a href=""  style="color: #fff;">Đăng nhập</a>
             </div>
         </div>
@@ -44,9 +44,9 @@
                     </h3>
                 </div>
                 <div class="col-md-3 search-box">
-                    <form class="search-form navbar-form" action="timkiem.php" method="post">
-                        <input class="form-control" type="text" name="timkiem" placeholder="Tìm kiếm tên">
-                        <button class="btn btn-danger " name="tim">
+                    <form class="search-form navbar-form" action="timkiemnangcao.html" method="post">
+                        <input class="form-control" type="text" name="timkiemten" placeholder="Tìm kiếm tên">
+                        <button class="btn btn-danger " name="btnTimKiemTen">
                             <span class="glyphicon glyphicon-search"></span>
                         </button>
                     </form>
@@ -68,7 +68,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.php" style="color:#FFF">
+                <a class="navbar-brand" href="index.html" style="color:#FFF">
                     <span class="glyphicon glyphicon-home" ></span> Home
                 </a>
 
@@ -77,7 +77,7 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav ">
                     <li>
-                        <a href="#" style="color:#FFF">Tìm bạn</a>
+                        <a href="timkiemnangcao.html" style="color:#FFF">Tìm bạn</a>
                     </li>
                     
                     <li>
@@ -94,93 +94,84 @@
         <div class="row">
             <!-- BoxContainerLeft -->
             <div class="BoxContainerLeft col-md-8">
-                <div class="boxGeneral">
-                    <div class="boxTitle">
-                        <span class="glyphicon glyphicon-globe"></span> Tin Tức
-                    </div>
-                    <div class="boxContent row">
-                        <button class="btn_display" style="margin-left: 1%;" onclick="plusDivs(-1)">&#10094;</button>
-                        <div id="chuanoidung_slide">
-                        	<div class="slides_tintuc">
-  								<img src="image/img_slide_tintuc/1.png" height="180px">
-    							<div class="noidung">
-                                	<h4><a href="#">Slide tin tức thứ 1</a></h4>
-                            		<p>Nội dung một phần của slide tin tức thứ 1 ...</p>
-                                </div>
-  							</div>
-                        	<div class="slides_tintuc">
-  								<img src="image/img_slide_tintuc/2.png" style="width:270px" height="180px">
-    							<div class="noidung">
-                                	<h4><a href="#">Slide tin tức thứ 2</a></h4>
-                            		<p>Nội dung một phần của slide tin tức thứ 2 ...</p>
-                                </div>
-  							</div>
-                        	<div class="slides_tintuc">
-  								<img src="image/img_slide_tintuc/3.png" style="width:270px" height="180px">
-    							<div class="noidung">
-                                	<h4><a href="#">Slide tin tức thứ 3</a></h4>
-                            		<p>Nội dung một phần của slide tin tức thứ 3 ...</p>
-                                </div>
-  							</div>
-                        	<div class="slides_tintuc">
-  								<img src="image/img_slide_tintuc/4.png" style="width:270px" height="180px">
-    							<div class="noidung">
-                                	<h4><a href="#">Slide tin tức thứ 4</a></h4>
-                            		<p>Nội dung một phần của slide tin tức thứ 4 ...</p>
-                                </div>
-  							</div>
+                <div class="row" >
+                    <div class="boxProfile col-md-4 ">
+                        <div class="box-avatar">
+                            <img src="image\avatar.png" alt="anh dai dien" class = "avatar">
+                            <div class="user">
+                                <p>shourrei_sinomi</p>
+                            </div>
                         </div>
-                        <button class="btn_display" onclick="plusDivs(1)">&#10095;</button>
-                    </div>
-                    
-                    <script src="javascript/slide_tintuc.js"></script>
-                    
-                </div>
 
-                <div class="boxGeneral">
-                    <div class="boxTitle">
-                        <span class="glyphicon glyphicon-fire"></span> Bản Tin
+                        <div class="profile boxGeneral">
+                            <div class="boxTitleProfile" >
+                                <span class="glyphicon glyphicon-user"></span> Profile
+                            </div>
+                            <div class="boxContent"  >
+
+                                <TABLE style="text-align: left;">
+                                    <tr>
+                                        <td width= 35%>Ngày sinh:</td>
+                                        <td width= 65% id="date" name="date">10/10/1995</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td id="email" name="email">khongcoten@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Giới tính:</td>
+                                        <td id="genre" name="genre">Nữ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hôn nhân:</td>
+                                        <td id="marry" name="marry">Chưa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tỉnh thành:</td>
+                                        <td id="country" name="country">Đà Nẵng</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mục tiêu:</td>
+                                        <td id="target" name="target">Tìm kiếm người yêu lâu dài</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Học vấn:</td>
+                                        <td id="school" name="school">Đại học</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chiều cao:</td>
+                                        <td id="height1" name="height1">160</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cân nặng:</td>
+                                        <td id="weight" name="weight">45</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hẹn hò với:</td>
+                                        <td id="who" name="who">No</td>
+                                    </tr>
+
+                                </TABLE>
+
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div class="boxContent">
-                        <!-- Table -->
-  						<table class="table">
-                        	<tr>
-                               	<th>Thành viên</th>
-                               	<th>Đến từ</th>
-                               	<th>Tuổi</th>
-                                <th>Trạng thái</th>
-                            </tr>
-                          	<tr>
-                            	<td>xoapit</td>
-                            	<td>Huế</td>
-                            	<td>22</td>
-                                <td>tôi muốn tìm người yêu lâu dài</td>
-                          	</tr>
-                            <tr>
-                            	<td>quanhuu</td>
-                            	<td>Đà Nẵng</td>
-                            	<td>24</td>
-                                <td>tôi muốn tìm người tâm sự</td>
-                          	</tr>
-                            <tr>
-                            	<td>phuoc</td>
-                            	<td>Hồ Chí Minh</td>
-                            	<td>26</td>
-                                <td>có ai muốn kết bạn với mình không</td>
-                          	</tr>
-                            <tr>
-                            	<td>nghi</td>
-                            	<td>Hà Nội</td>
-                            	<td>24</td>
-                                <td>không thiếu cái gì chỉ thiếu gấu thôi</td>
-                          	</tr>
-                            <tr>
-                            	<td>phong</td>
-                            	<td>Đà Nẵng</td>
-                            	<td>22</td>
-                                <td>muốn kiếm người hợp</td>
-                          	</tr>
-                        </table>
+
+                    <div class="boxStatus col-md-8">
+                        <div class="boxStatus">
+                            <form style="text-align: right;">
+                                <input class="btn" type="button" name="btnSendRequest" value="Kết bạn">
+                                <input class="btn" type="button" name="btnReport" value="Tố cáo">
+                            </form>
+                            <div class="boxStatusTitle">Trạng thái </div>
+                        </div>  
+                        <div class="boxStatusContent" style="margin: 0px">  
+                            <textarea class="form-control " readonly="true" rows="7" id="statusContent">
+
+                            </textarea>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -271,7 +262,7 @@
             <div class="boxTitle">
              <span class="glyphicon glyphicon-list-alt"></span> Nội quy
          </div>
-         <div class="boxContent"  id="NoiQuy">
+         <div class="boxContent">
             <p>
                 NỘI QUY NHÓM J2TEAM COMMUNITY
                 <br>Để tránh việc bị Kick, Ban hoặc bị xóa bài mà không biết nguyên nhân tại sao, đề nghị các bạn vui lòng đọc kỹ nội quy trước khi tham gia nhóm.

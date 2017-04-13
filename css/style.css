@@ -62,15 +62,15 @@ h2 {
     box-shadow: none;
     display: inline-block;
     padding-left:15px;
-	padding-right:15px;
-	text-align:center;
+    padding-right:15px;
+    text-align:center;
     
 }
 .search-box input[type=text]:hover,
 .search-box input[type=text]:focus,
 .search-box input[type=text]:active {
     box-shadow: 0px 0px 10px red;
-	border:#F00 solid 1px;
+    border:#F00 solid 1px;
 }
 
 .search-box .btn{
@@ -118,8 +118,8 @@ h2 {
 .boxGeneral {
     width: 100%;
     background: #FEFEFE;
-	margin-bottom:20px;
-	box-shadow: 0px 0px 4px red;
+    margin-bottom:20px;
+    box-shadow: 0px 0px 4px red;
 }
 
 .boxContent{
@@ -230,3 +230,123 @@ h2 {
     box-shadow: 0px 0px 10px gray;
     padding: 10px;
 }
+
+<!--Nghi-->
+
+
+.box-avatar{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.box-avatar p{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.profile{
+    border-radius: 5px;
+    font-size: 13px;
+}
+.boxTitleProfile {
+    padding: 5px;
+    background: #f34764;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
+.btn{
+    background: #f34764;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boxStatusContent{
+    margin-top: 80px;
+}
+
+.boxWriteStatus{
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    margin-bottom: 20px;
+}
+.boxStatusTitle{
+    border: 1px solid #f34764;
+    height: 5%;
+    width: 100px;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f34764;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.avatar{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 3px solid #010101;
+    border-radius: 10%;
+}
+
+.username{
+    font-style: bold;
+    font-size: 20px;
+}
+<!--Nghi-->
+
+<!--phuoc-->
+.boxContent table th,td{
+    padding: 5px;
+}
+
+.btn_display{
+    width: 3%;
+    float: left;
+    margin: 15% 0px;
+    background-color: white;
+    border:none;
+}
+
+
+.boxContent button:hover{
+    background-color:#999;
+}
+
+#chuanoidung_slide {
+    width: 92%;
+    padding: 1%;
+    float: left;
+}
+.slides_tintuc img{
+    width: 46%;
+    margin: 30px 10px;
+    display: inline;
+}
+
+.noidung {
+    display: inline;
+    width: 46%;
+    height: 220px;
+    float: right;
+    margin-top: 25px;
+}
+
+.btnUser{
+    color: #fff;
+    padding-top: 10px;
+}
+
+/* Tao lua chon khi chon chuc nang chat phong */
+
+<!--phuoc-->
